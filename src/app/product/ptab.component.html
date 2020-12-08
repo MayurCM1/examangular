@@ -1,6 +1,6 @@
 <div>
 <table border="2">
-    <tr><th>product id</th><th>Product name</th><th>Product code</th><th>price</th></tr>
+    <tr><th>product id</th><th>Product name</th><th>Product coding by Mayur</th><th>price</th></tr>
     <tr *ngFor="let p of parr">
         <td>{{p.pid}}</td>
         <td>{{p.pname|testpipe:p.price}}</td>
